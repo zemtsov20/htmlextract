@@ -2,14 +2,14 @@ package com.mailparser.htmlextract;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.context.annotation.ComponentScan;
 
-@RestController
 @SpringBootApplication
+//@ComponentScan("ru.worker.config")
 public class HtmlextractApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HtmlextractApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(HtmlextractApplication.class, args);
+    }
 
 }
